@@ -2,6 +2,7 @@ package algorithms;
 
 public class MergeStrategy implements Strategy{
 	public double[] sort(double arr[]){
+		System.out.println("merge call received");
 		double finArr[] = mergeSort(arr, 0, arr.length -1); 
 		return finArr;
 	}
